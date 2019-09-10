@@ -20,6 +20,8 @@ This plugin creates a Redactor toolbar button (added after the lists button) for
 
 ## To install in Craft CMS 3:
 
+*Requirements: Craft CMS 3 with Redactor plugin; custom Redactor config(s).*
+
 1. Download the repository.
 2. Move or copy the `alphalist` directory into the `config/redactor/plugins` directory in your Craft site.
 3. To use the plugin in a Redactor config, include it in the plugins list:   `"plugins": [ "alphalist"]`. 
