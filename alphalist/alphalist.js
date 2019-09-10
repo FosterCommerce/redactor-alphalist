@@ -8,7 +8,6 @@
     translations: {
       en: {
         "alphalist": "Lettered List",
-        "errorMessage": "This only works for numbered lists. Create an numbered list first, then select it and click the button again."
       }
     },
     init: function(app)
