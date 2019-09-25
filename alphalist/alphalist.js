@@ -1,5 +1,6 @@
 /* Alpha List Plugin (by @katiemaefritz)
  * This plugin adds a toolbar button for alpha styled ordered lists.
+ * https://github.com/FosterCommerce/redactor-alphalist
 */
 
 (function($R)
@@ -35,7 +36,7 @@
       // create the actual button
       // TODO: get an actual icon for this
       const $button = this.toolbar.addButtonAfter('lists', 'alphalist', buttonData);
-      $button.setIcon('<i class="re-icon-fontfamily"></i>');
+      $button.setIcon('<i class="re-icon-lists"></i>');
     },
     toggle: function()
     {
